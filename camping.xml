@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="camping.xsl"?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 5
+   Case Problem 4
+
+   Cairn Camping Store
+   Author: Matt Ramey
+   Date:  6/28/24
+
+   Filename:    camping.xml     
+   Supporting Files: camping.xsl
+-->
+
+<root>
+  <customers>
+    <customer cid="c5781">
+      <name>Hardy, Joan</name>
+      <street>105 Terrace Rd.</street>
+      <city>Duncan</city>
+      <state>NE</state>
+      <zip>68634</zip>
+      <orders>
+        <order oid="51170">
+          <date>8/2/2017</date>
+          <item iid="p5148">
+            <description>Self-Inflating Pad</description>
+            <qty>2</qty>
+          </item>
+          <item iid="sb2818">
+            <description>Down Sleeping Bag</description>
+            <qty>2</qty>
+          </item>
+          <item iid="t7815">
+            <description>2 Person Tent</description>
+            <qty>1</qty>
+          </item>
+        </order>
+        <order oid="52811">
+          <date>8/11/2017</date>
+          <item iid="led7331">
+            <description>LED Rechargeable Lantern</description>
+            <qty>1</qty>
+          </item>
+          <item iid="wp0312">
+            <description>Water Purifier</description>
+            <qty>1</qty>
+          </item>
+        </order>
+      </orders>
+    </customer>
+    <customer cid="c5391">
+      <name>Evans, Terry</name>
+      <street>641 Greenway Blvd.</street>
+      <city>Mount Hope</city>
+      <state>OH</state>
+      <zip>44660</zip>
+      <orders>
+        <order oid="52517">
+          <date>8/1/2017</date>
+          <item iid="wb7133">
+            <description>Insulated Water Bottle</description>
+            <qty>2</qty>
+          </item>
+          <item iid="gps1015">
+            <description>Zendo GPS meter</description>
+            <qty>1</qty>
+          </item>
+          <item iid="bl2815">
+            <description>Boot Laces (Medium)</description>
+            <qty>1</qty>
+          </item>
+          <item iid="tr8140">
+            <description>Trail Mix (Pouch)</description>
+            <qty>5</qty>
+          </item>
+          <item iid="fa8442">
+            <description>First Aid Kit (Pack Size)</description>
+            <qty>1</qty>
+          </item>
+          <item iid="bb7117">
+            <description>Blister Patches</description>
+            <qty>3</qty>
+          </item>
+        </order>
+        <order oid="53003">
+          <date>8/5/2017</date>
+          <item iid="hp7814">
+            <description>Fiberglass Light Hiking Poles (Spring Adj.)</description>
+            <qty>1</qty>
+          </item>
+        </order>
+        <order oid="54814">
+          <date>8/6/2017</date>
+          <item iid="sb6601">
+            <description>Solar Battery Recharging Unit</description>
+            <qty>1</qty>
+          </item>
+          <item iid="br9002">
+            <description>Bug Repellent (Deep Woodes)</description>
+            <qty>2</qty>
+          </item>
+          <item iid="sb8502">
+            <description>Sunblock SPF 30 (Hiking Size)</description>
+            <qty>6</qty>
+          </item>
+        </order>
+      </orders>
+    </customer>
+    <customer cid="c5614">
+      <name>Sandoval, Tammy</name>
+      <street>641 Greenway Blvd.</street>
+      <city>Galesburg</city>
+      <state>ND</state>
+      <zip>58035</zip>
+      <orders>
+        <order oid="52144">
+          <date>8/3/2017</date>
+          <item iid="sg8128">
+            <description>Polarized Snow Goggles</description>
+            <qty>1</qty>
+          </item>
+          <item iid="sh5591">
+            <description>Snow Helmet Women's</description>
+            <qty>1</qty>
+          </item>
+          <item iid="sb5317">
+            <description>Attack Snowboard Women's</description>
+            <qty>1</qty>
+          </item>
+          <item iid="pw6558">
+            <description>Insulated Pants Women's</description>
+            <qty>2</qty>
+          </item>
+          <item iid="pj5199">
+            <description>Insulated Jacket Women's</description>
+            <qty>1</qty>
+          </item>
+          <item iid="bl6638">
+            <description>Snowboard Leash</description>
+            <qty>1</qty>
+          </item>
+        </order>
+        <order oid="53410">
+          <date>8/6/2017</date>
+          <item iid="ws6832">
+            <description>Snowshoes Women's</description>
+            <qty>1</qty>
+          </item>
+          <item iid="sp5588">
+            <description>Snowshoes Pair</description>
+            <qty>1</qty>
+          </item>
+        </order>
+      </orders>
+    </customer>
+  </customers>
+</root>
